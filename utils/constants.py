@@ -1,0 +1,1 @@
+MAX_REPORT_DATE_RANGE = 180  # days

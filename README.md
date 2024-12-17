@@ -37,11 +37,12 @@ $ python manage.py runserver 0:8000
 Try opening [http://localhost:8000](http://localhost:8000) in the browser.
 
 ### 6. URLs
-#### Create Rebate Program: [http://localhost:8001/signup](http://localhost:8001/signup)
-#### Create Transaction: [http://localhost:8001/login](http://localhost:8001/login)
-#### Calculate Rebate: [http://localhost:8001/](http://localhost:8001/)
-#### Claim Rebate: [http://localhost:8001/country/kenya](http://localhost:8001/country/kenya)
-#### Claim Report: [http://localhost:8001/logout](http://localhost:8001/logout)
+#### Create Rebate Program: [http://localhost:8000/api/v1/rebate-program/](http://localhost:8000/api/v1/rebate-program/)
+#### Create Transaction: [http://localhost:8000/api/v1/transaction/](http://localhost:8000/api/v1/transaction/)
+#### Calculate Rebate: [http://localhost:8000/api/v1/transaction/calculate-rebate/<id>](http://localhost:8000/api/v1/transaction/calculate-rebate/<id>)
+#### Claim Rebate: [http://localhost:8000/api/v1/rebate/claim/](http://localhost:8000/api/v1/rebate/claim/)
+#### Update Claim status: [http://localhost:8000/api/v1/rebate/update/<id>](http://localhost:8000/api/v1/rebate/update/<id>)
+#### Claim Report: [http://localhost:8000/api/v1/reports/claim-report/](http://localhost:8000/api/v1/reports/claim-report/)
 
 
 ## Installation (Docker)
