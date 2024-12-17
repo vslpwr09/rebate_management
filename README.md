@@ -38,13 +38,9 @@ Try opening [http://localhost:8000](http://localhost:8000) in the browser.
 
 ### 6. URLs
 #### Create Rebate Program: [http://localhost:8001/signup](http://localhost:8001/signup)
-![](https://i.imgur.com/T1KkfXi.png)
 #### Create Transaction: [http://localhost:8001/login](http://localhost:8001/login)
-![](https://i.imgur.com/KvyiuU6.png)
 #### Calculate Rebate: [http://localhost:8001/](http://localhost:8001/)
-![](https://i.imgur.com/234qAiS.png)
 #### Claim Rebate: [http://localhost:8001/country/kenya](http://localhost:8001/country/kenya)
-![](https://i.imgur.com/3zh3YKd.png)
 #### Claim Report: [http://localhost:8001/logout](http://localhost:8001/logout)
 
 
